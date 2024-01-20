@@ -8,11 +8,11 @@ class Human {
     }
 
     public void setAge(int a) {     //This is the setter method by which we set the values
-        age = a;                        //we are using void since we are not returning anything
+        age = a;                   //we are using void since we are not returning anything
     }
 
     public String getName() {       //This is the getter method by which we get the values
-        return name;
+        return name; 
     }
 
     public void setName(String n) {      //This is the setter method by which we set the values
