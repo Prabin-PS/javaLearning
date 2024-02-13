@@ -1,5 +1,5 @@
 abstract class Car {
-    public abstract void drive();           //declaring a method instead if defining
+    public abstract void drive();           //declaring a method instead of defining
 
     public void playmusic() {
         System.out.println("Playing music..");
