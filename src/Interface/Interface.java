@@ -5,7 +5,7 @@ interface Computer {        //Instead of abstract classes we use interface at th
     void code();            //by default every method in interface class is public & abstract
 }                           //if variables are created in inside interface that will be final & static by default
 
-class Laptop implements Computer {  //in implements you will only get the methods & not variables
+class Laptop implements Computer {  //in implements, you will only get the methods & not variables
     public void code() {       //If interface is implemented in a class then its mandatory to define all of its methods
         System.out.println("using laptop");
     }
@@ -44,3 +44,10 @@ public class Interface {
 //class - class --> extends
 //class - interface --> implements
 //interface - interface --> extends
+
+
+//Types of Interfaces :
+// 1. Normal - When an Interface contains 2 or more methods
+// 2. Functional/SAM (Single Abstract Method)- only one method (need not mention the method as public abstract we can
+// specify only the return type with method)
+// 3. Marker Interface - This will help the objects to fetch the values from the hardware eg : Game pausing
