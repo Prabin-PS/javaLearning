@@ -9,7 +9,7 @@ public class ForEachMethodInJava {
 
     public static void main(String[] Args) {
 
-        List<Integer> nums = Arrays.asList(5, 8, 9, 3);
+        List<Integer> nums = Arrays.asList(5, 8, 9, 3);             //using Arrays.asList() we can skip the definition of values one by one
 
 //        Consumer<Integer> con = new Consumer<Integer>() {        // Consumer is a functional interface
 //            public void accept(Integer n) {                     //using anonymous class hence can be replaced with Lambda expression
